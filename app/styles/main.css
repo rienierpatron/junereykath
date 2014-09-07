@@ -11,10 +11,11 @@ body {
     overflow-x: hidden;
 }
 
-#container {
+.container {
   margin: 0 auto;
   padding: 0;
   width: 600px;
+  height: auto;
   position: relative;
 }
 
@@ -49,6 +50,10 @@ body {
   width: 513px;
   height: auto;
   margin: 0 auto;
+  border: 3px solid #ccc;
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
 }
 
 .polaroid-film {
@@ -70,3 +75,12 @@ body {
   -moz-box-shadow: inset 4px 0 4px 4px rgba(0,0,0,0.5);
 }
 
+.date {
+  float: right;
+}
+
+/* Triggers */
+#trigger_polaroid_pin {
+  position: absolute;
+  top: 670px;
+}
