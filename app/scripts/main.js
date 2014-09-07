@@ -1,0 +1,1 @@
+// initialize controllervar controller = new ScrollMagic();// assign handler and add to controllervar scene = new ScrollScene({duration:  100})                .setPin('#doodle1')                .addTo(controller);

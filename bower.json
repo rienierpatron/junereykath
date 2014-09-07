@@ -1,0 +1,14 @@
+{
+  "name": "jk",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "gsap": "~1.13.2",
+    "ScrollMagic": "~1.1.1"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "gsap": "~> 1.11.5"
+  }
+}
