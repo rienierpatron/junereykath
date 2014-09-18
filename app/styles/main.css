@@ -1,5 +1,6 @@
 html {
   background-color: #000;
+  font-family: sans-serif;
 }
 
 html, body {
@@ -33,11 +34,14 @@ html, body {
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
+@-moz-@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
 #intro1 {
   height: 100%;
   width: 100%;
-  /*background-image: url(../images/particle.png), url(../images/particle2.png), url(../images/particle3.png);
-  -webkit-animation: snow 20s linear infinite;*/
 }
 
 #particle {
@@ -46,14 +50,16 @@ html, body {
   background-image: url(../images/particle.png), url(../images/particle2.png), url(../images/particle3.png);
   opacity: 0.1;
   filter: alpha(opacity=10); /* For IE8 and earlier */
+  animation: snow 20s linear infinite;
   -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
 }
 
 #jun-kath {
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -300px;
+  margin-top: -200px;
   margin-left: -200px;
   width: 512px;
   animation-delay: 0.5s;
