@@ -5,10 +5,8 @@
     "modernizr": "~2.6.2",
     "jquery": "~1.11.0",
     "gsap": "~1.13.2",
-    "ScrollMagic": "~1.1.1"
+    "animate.css": "~3.2.0",
+    "jquery-backstretch": "~2.0.4"
   },
-  "devDependencies": {},
-  "resolutions": {
-    "gsap": "~> 1.11.5"
-  }
+  "devDependencies": {}
 }

@@ -1,86 +1,62 @@
 html {
-  display: block;
+  background-color: #000;
 }
 
-body {
-    background: #ccffff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
-    min-width: 1000px;
-    width: 100%;
-    overflow-x: hidden;
+html, body {
+  width: 100%;
+  height: 100%;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0;
-  width: 600px;
-  height: auto;
-  position: relative;
+.hidden {
+  display: none;
 }
 
-#doodle1 {
-  position: absolute;
-  top: 100px;
-  left: 20px;
-  width: 500px;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter:  FlipH;
-  -ms-filter: "FlipH";
+#loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
-#doodle2 {
-  position: absolute;
-  top: 100px;
-  right: 20px;
-  width: 500px;
+#loading img {
+  height: 75px;
 }
 
-.polaroid-whole {
-  margin: 0 auto;
-  padding: 0;
-  height: 419px;
-  background: url('../images/polaroid.png') no-repeat;
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-.film {
-  width: 513px;
-  height: auto;
-  margin: 0 auto;
-  border: 3px solid #ccc;
-  position: absolute;
-  top: 0;
-  margin-top: 100px;
+@-webkit-@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-.polaroid-film {
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+#intro1 {
+  height: 100%;
+  width: 100%;
+  /*background-image: url(../images/particle.png), url(../images/particle2.png), url(../images/particle3.png);
+  -webkit-animation: snow 20s linear infinite;*/
 }
 
-.polaroid-image {
-  width: 465px;
+#particle {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/particle.png), url(../images/particle2.png), url(../images/particle3.png);
+  opacity: 0.1;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+  -webkit-animation: snow 20s linear infinite;
 }
 
-.polaroid-image img {
-  width: 465px;
-  box-shadow: inset 4px 0 4px 4px rgba(0,0,0,0.5);
-  -webkit-box-shadow: inset 4px 0 4px 4px rgba(0,0,0,0.5);
-  -moz-box-shadow: inset 4px 0 4px 4px rgba(0,0,0,0.5);
-}
-
-.date {
-  float: right;
-}
-
-/* Triggers */
-#trigger_polaroid_pin {
-  position: absolute;
-  top: 670px;
+#jun-kath {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -200px;
+  width: 512px;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
 }

@@ -9,7 +9,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
-
+        <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
@@ -24,36 +24,21 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="trigger_polaroid_pin"></div>
-        <div id="header">
-          <img src="images/doodle1.png" id="doodle1">
-          <img src="images/doodle1.png" id="doodle2">
-          <div class="container">
-            <section id="title">
-              <h1>Kath & Junerey</h1>
-              <div class="polaroid-whole"></div>
-            </section>
-          </div>
+        
+        <div id="loading">
+            <img src="images/loading.png" alt="Loading...">
         </div>
-        <div class="container">
-          <section id="intro" class="film">
-            <div class="polaroid-film">
-              <div class="polaroid-image">
-                <img src="images/lens.jpg" alt="">
-              </div>
-              <div class="polaroid-caption">
-                <h3 class="caption">Kath & June</h3>
-                <span class="date">September 26, 2009</span>
-              </div>
-            </div>
-          </section>
+
+        <div id="intro1" class="hidden">
+            <div id="particle"></div>
+            <img id="jun-kath" src="images/kath-june.png" alt="Kath & June">
         </div>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/jquery/jquery.min.js"></script>
         <script src="../bower_components/gsap/src/minified/TweenMax.min.js"></script>
-        <script src="../bower_components/ScrollMagic/js/jquery.scrollmagic.min.js"></script>
+        <script src="../bower_components/jquery-backstretch/jquery.backstretch.min.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
