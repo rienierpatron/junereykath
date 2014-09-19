@@ -1,13 +1,29 @@
+@font-face {
+  font-family: alwaysforever;
+  src: url(../fonts/always_forever/alwaysforever.ttf);
+}
+
+@font-face {
+  font-family: champagnelimousine;
+  src: url(../fonts/champagne_limousines/Champagne&Limousines.ttf);
+}
+
 html {
   background-color: #000;
   font-family: sans-serif;
   overflow: hidden;
   overflow-y: hidden;
+  font-family: champagnelimousine;
 }
 
 html, body {
   width: 100%;
   height: 100%;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .hidden {
@@ -44,6 +60,30 @@ html, body {
 #intro1 {
   height: 100%;
   width: 100%;
+  padding: none;
+  border: none;
+}
+
+#intro1-content {
+  background: url(../bg-images/polaroid-blurred-vignette.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#intro1-transition {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+#intro1-transition-bg {
+  background: url(../bg-images/polaroid-desk-blurred.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 #particle {
@@ -67,6 +107,38 @@ html, body {
   animation-delay: 0.5s;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
+}
+
+#click_here {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 200px;
+  margin-left: -50px;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}
+
+#click_here a {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 40px;
+  padding: 3px 20px 3px 20px;
+  color: #aaa;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#click_here a:hover{
+  border-color: #fff;
+  color: #666;
+  background-color: rgba(255,255,255,0.7) ;
 }
 
 /* Large desktop */
