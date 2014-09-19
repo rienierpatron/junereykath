@@ -93,6 +93,6 @@ html, body {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #jun-kath {
-    width: 375px;
+    width: 350px;
   }
 }
