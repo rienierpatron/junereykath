@@ -172,32 +172,41 @@ body {
   -moz-animation-delay: 1s;
 }
 
-.front {
+.back {
+  z-index: 2000;
+  width: 1000px;
+}
+
+.middle1 {
   z-index: 500;
-  top: 150px;
+  width: 4000px;
+}
+
+.front {
+  z-index: 1000;
   width: 6000px;
-
 }
 
-.page {
-  top: 0px;
-  width: 500px;
-  background-white;
-  padding: 10px 30px;
-  border: 1px solid #eee;
+
+#sofa {
   position: absolute;
+  bottom: -50px;
+  left: 700px;
 }
 
-.hello {
-  left: 500px;
+#heart-polaroid {
+  width: 450px;
+  margin-bottom: 200px;
+  margin-left: 750px;
 }
 
-.kath {
-  left: 1500px;
+.intro {
+  width: 500px;
+  margin-left: 100px;
 }
 
-.junerey {
-  left: 2500px;
+.intro-text {
+  font-size: 50px;
 }
 
 /* Large desktop */
