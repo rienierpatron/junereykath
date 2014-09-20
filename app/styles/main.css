@@ -11,8 +11,6 @@
 html {
   background-color: #000;
   font-family: sans-serif;
-  overflow: hidden;
-  overflow-y: hidden;
   font-family: champagnelimousine;
 }
 
@@ -36,6 +34,15 @@ body {
   left: 50%;
   margin-top: -50px;
   margin-left: -100px;
+}
+
+#loading-img {
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
 }
 
 #loading img {
@@ -84,6 +91,9 @@ body {
   background-size: cover;
   height: 100%;
   width: 100%;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
 }
 
 #particle {
@@ -128,17 +138,66 @@ body {
   border-radius: 40px;
   padding: 3px 20px 3px 20px;
   color: #aaa;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
 }
 
 #click_here a:hover{
   border-color: #fff;
   color: #666;
   background-color: rgba(255,255,255,0.7) ;
+}
+
+#story {
+  position: fixed;
+  width: 6000px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#story-content {
+  width: 6000px !important;
+  background: #e6e6e6;
+  height: 100%;
+  display: block;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+}
+
+.front {
+  z-index: 500;
+  top: 150px;
+  width: 6000px;
+
+}
+
+.page {
+  top: 0px;
+  width: 500px;
+  background-white;
+  padding: 10px 30px;
+  border: 1px solid #eee;
+  position: absolute;
+}
+
+.hello {
+  left: 500px;
+}
+
+.kath {
+  left: 1500px;
+}
+
+.junerey {
+  left: 2500px;
 }
 
 /* Large desktop */
