@@ -153,14 +153,14 @@ body {
 
 #story {
   position: fixed;
-  width: 6000px;
+  width: 22500px;
   height: 100%;
   top: 0;
   left: 0;
 }
 
 #story-content {
-  width: 6000px !important;
+  width: 22500px !important;
   background: #e6e6e6;
   height: 100%;
   display: block;
@@ -172,27 +172,36 @@ body {
   -moz-animation-delay: 1s;
 }
 
+.scroll {
+  width: 100%;
+  height: 100%;
+}
+
 .front-slow {
   z-index: 2000;
-  width: 3000px;
+  width: 10000;
 }
 
 .back {
   z-index: 100;
-  width: 3000px;
+  width: 21500px;
 }
 
 .middle1 {
   z-index: 500;
-  width: 4000px;
+  width: 20500px;
+}
+
+.middle2 {
+  width: 19500px;
 }
 
 .front {
   z-index: 1000;
-  width: 6000px;
+  width: 22500px;
 }
 
-
+/* start intro page*/
 #sofa {
   position: absolute;
   bottom: -50px;
@@ -210,10 +219,17 @@ body {
   margin-left: 100px;
   font-size: 50px;
 }
+/* end intro page*/
 
-.jun-college {
-  position: absolute;
-  left: 1700px;
+
+/* start junkath sining <3 */
+.sing {
+  margin-left: 1500px;
+}
+
+.sing-text {
+  width: 500px;
+  font-size: 50px;
 }
 
 #display-cabinet {
@@ -221,6 +237,26 @@ body {
   height: 400px;
   bottom: -50px;
 }
+/* end junkath singing <3 */
+
+/* start june college */
+.jun-college {
+  margin-left: 3000px;
+}
+
+
+#junerey-college-back {
+  position: absolute;
+  top: 0;
+}
+
+#junerey-college-middle {
+  position: absolute;
+  top: 0;
+}
+
+
+/* end june college */
 
 /* Large desktop */
 @media (min-width: 1200px) {
