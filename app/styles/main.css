@@ -172,9 +172,14 @@ body {
   -moz-animation-delay: 1s;
 }
 
-.back {
+.front-slow {
   z-index: 2000;
-  width: 1000px;
+  width: 3000px;
+}
+
+.back {
+  z-index: 100;
+  width: 3000px;
 }
 
 .middle1 {
@@ -200,13 +205,21 @@ body {
   margin-left: 750px;
 }
 
-.intro {
+.intro-text {
   width: 500px;
   margin-left: 100px;
+  font-size: 50px;
 }
 
-.intro-text {
-  font-size: 50px;
+.jun-college {
+  position: absolute;
+  left: 1700px;
+}
+
+#display-cabinet {
+  position: absolute;
+  height: 400px;
+  bottom: -50px;
 }
 
 /* Large desktop */
