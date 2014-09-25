@@ -1,17 +1,6 @@
-@font-face {
-  font-family: alwaysforever;
-  src: url(../fonts/always_forever/alwaysforever.ttf);
-}
-
-@font-face {
-  font-family: champagnelimousine;
-  src: url(../fonts/champagne_limousines/Champagne&Limousines.ttf);
-}
-
 html {
   background-color: #000;
-  font-family: sans-serif;
-  font-family: champagnelimousine;
+  font-family: 'Courgette', sans-serif;
 }
 
 html, body {
@@ -96,7 +85,7 @@ body {
   -moz-animation-duration: 1s;
 }
 
-#particle {
+.particle {
   height: 100%;
   width: 100%;
   background-image: url(../images/particle.png), url(../images/particle2.png), url(../images/particle3.png);
@@ -157,6 +146,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
+  color: #333;
 }
 
 #story-content {
@@ -179,12 +169,17 @@ body {
 
 .front-slow {
   z-index: 2000;
-  width: 10000;
+  width: 15500px;
+}
+
+.front {
+  z-index: 1000;
+  width: 22500px;
 }
 
 .back {
   z-index: 100;
-  width: 21500px;
+  width: 12500px;
 }
 
 .middle1 {
@@ -193,12 +188,8 @@ body {
 }
 
 .middle2 {
+  z-index: 750;
   width: 19500px;
-}
-
-.front {
-  z-index: 1000;
-  width: 22500px;
 }
 
 /* start intro page*/
@@ -228,8 +219,24 @@ body {
 }
 
 .sing-text {
+  position: absolute;
   width: 500px;
-  font-size: 50px;
+  font-size: 40px;
+  top: 0;
+}
+
+.sing-text2 {
+  position: absolute;
+  width: 500px;
+  font-size: 40px;
+  top: 200px;
+}
+
+.sing-text3 {
+  position: absolute;
+  width: 500px;
+  font-size: 40px;
+  top: 400px;
 }
 
 #display-cabinet {
@@ -241,22 +248,119 @@ body {
 
 /* start june college */
 .jun-college {
-  margin-left: 3000px;
+  margin-left: 3300px;
 }
 
 
 #junerey-college-back {
   position: absolute;
   top: 0;
+  margin-left: -600px;
 }
 
 #junerey-college-middle {
   position: absolute;
   top: 0;
+  margin-left: -300px;
 }
 
+#junerey-college-front {
+  position: absolute;
+  top: 0;
+  margin-left: 300px;
+}
+
+.junerey-college-text {
+  position: absolute;
+  width: 900px;
+  font-size: 50px;
+  top: 450px;
+  margin-left: 800px;
+}
 
 /* end june college */
+
+/* start kath college*/
+.kath-college {
+  margin-left: 5500px;
+}
+
+.kath-college-text {
+  position: absolute;
+  width: 400px;
+  font-size: 50px;
+  top: 100px;
+  margin-left: 650px;
+}
+
+#kath-college-front {
+  position: absolute;
+  top: -50px;
+}
+
+#kath-college-middle {
+  position: absolute;
+  top: -350px;
+  margin-left: -900px;
+}
+
+#kath-college-back {
+  position: absolute;
+  top: -500px;
+  margin-left: -2300px;
+}
+/* end kath college */
+
+/* start junerey code */
+.junerey-code {
+  margin-left: 4500px;
+}
+
+.junerey-code-text {
+  position: absolute;
+  top: 0;
+  font-size: 50px;
+  margin-left: 400px;
+}
+
+#junerey-code-middle {
+  position: absolute;
+  top: 0;
+  margin-left: 1800px;
+}
+
+#junerey-code-front {
+  position: absolute;
+  top: -300px;
+  margin-left: 3200px;
+}
+/* end junerey code*/
+
+/* start kath teach */
+.kath-teach {
+  margin-left: 6300px;
+}
+
+.kath-teach-text {
+  position: absolute;
+  bottom: 0;
+  font-size: 50px;
+}
+
+#kath-teach-back {
+  position: absolute;
+  top: -400px;
+  margin-left: 2000px;
+  width: 200px;
+}
+
+#kath-teach-front {
+  position: absolute;
+  top: -400px;
+  margin-left: 3700px;
+  width: 300px;
+}
+/* end kath teach*/
 
 /* Large desktop */
 @media (min-width: 1200px) {
