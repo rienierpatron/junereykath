@@ -362,6 +362,51 @@ body {
 }
 /* end kath teach*/
 
+/* start heart break */
+.heart-break {
+  margin-left: 11600px;
+}
+
+.heart-break-text {
+  width: 1000px;
+  font-size: 35px;
+  position: absolute;
+  top: 100px;
+}
+/* end heart break */
+
+/* start lu love */
+.lu-love {
+  margin-left: 13000px;
+}
+
+.lu-love-text {
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+#lu-love-front {
+  position: absolute;
+  top: -600px;
+  margin-left: 600px;
+  width: 400px;
+}
+
+#lu-love-back {
+  position: absolute;
+  top: -200px;
+  margin-left: -4100px;
+}
+
+#lu-love-middle {
+  position: absolute;
+  top: -100px;
+  margin-left: -1500px;
+}
+/* end lu love */
+
 /* Large desktop */
 @media (min-width: 1200px) {
   #jun-kath {
