@@ -142,7 +142,7 @@ body {
 
 #story {
   position: fixed;
-  width: 22500px;
+  width: 22600px;
   height: 100%;
   top: 0;
   left: 0;
@@ -150,7 +150,7 @@ body {
 }
 
 #story-content {
-  width: 22500px !important;
+  width: 22600px !important;
   background: #e6e6e6;
   height: 100%;
   display: block;
@@ -174,7 +174,7 @@ body {
 
 .front {
   z-index: 1000;
-  width: 22500px;
+  width: 22600px;
 }
 
 .back {
@@ -406,6 +406,147 @@ body {
   margin-left: -1500px;
 }
 /* end lu love */
+
+/* start junerey grad*/
+.junerey-grad {
+  margin-left: 14500px;
+}
+
+.junerey-grad-text {
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+#junerey-grad-front {
+  position: absolute;
+  top: -50px;
+  margin-left: -4500px;
+}
+
+#junerey-grad-back {
+  position: absolute;
+  top: -50px;
+  margin-left: -2000px;
+}
+/* end junerey grad*/
+
+/* start kath grad */
+.kath-grad {
+  margin-left: 15800px;
+}
+
+.kath-grad-text {
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+#kath-grad-front {
+  position: absolute;
+  top: -100px;
+}
+
+#kath-grad-middle {
+  position: absolute;
+  top: -200px;
+  margin-left: -1900px;
+}
+
+#kath-grad-back {
+  position: middle;
+  top: 0;
+}
+/* end kath grad */
+
+/* start kath london */
+.kath-london {
+  margin-left: 17000px;
+}
+
+.kath-london-text {
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  width: 700px;
+}
+
+#kath-london-front {
+  position: absolute;
+  top: -150px;
+  margin-left: -300px;
+}
+
+#kath-london-middle {
+  position: absolute;
+  top: -300px;
+  margin-left: -2300px;
+}
+/* end kath london */
+
+/* start last text */
+.hardship {
+  margin-left: 18200px;
+}
+
+.hardship-text {
+  position: absolute;
+  top: 0;
+  font-size: 50px;
+  width: 700px;
+}
+
+.hardship2 {
+  margin-left: 19300px;
+}
+
+.hardship2-text {
+  position: absolute;
+  top: 0;
+  font-size: 50px;
+  width: 700px;
+}
+
+.hardship3 {
+  margin-left: 20500px;
+}
+
+.hardship3-text {
+  position: absolute;
+  top: 0;
+  font-size: 50px;
+  width: 700px;
+}
+/* end last text */
+
+/* start timer */
+.timer {
+  margin-left: 21500px;
+}
+
+.timer-text-top {
+  position:  absolute;
+  top: 0;
+  width: 900px;
+  font-size: 50px;
+}
+
+.timer-text-middle {
+  position: absolute;
+  top: 50%;
+  width: 900px;
+  font-size: 50px;
+}
+
+.timer-text-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 900px;
+  font-size: 50px;
+}
+/* end timer */
 
 /* Large desktop */
 @media (min-width: 1200px) {
