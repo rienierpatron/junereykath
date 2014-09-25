@@ -1,1 +1,0 @@
-"use strict";$(window).load(function(){$("#loading").addClass("animated fadeOut"),$("#loading").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend",function(){$("#intro1").removeClass("hidden"),$.backstretch("bg-images/polaroid-blurred-vignette.jpg",{fade:"normal"}),$("#jun-kath").addClass("animated fadeIn")})});
